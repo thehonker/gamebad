@@ -32,7 +32,7 @@
     ;
   };
 
-  default_transform: keymap_transform0 {
+  keymap_transform0: keymap_transform0 {
     compatible = "zmk,matrix-transform";
     columns = <14>;
     rows = <5>;
@@ -45,11 +45,11 @@
     >;
   };
 
-  physical_layout0: physical_layout_0 {
+  physical_layout0: physical_layout0 {
     compatible = "zmk,physical-layout";
     display-name = "Default Layout";
     kscan = <&kscan0>;
-    transform = <&default_transform>;
+    transform = <&keymap_transform0>;
   };
 
   chosen {
