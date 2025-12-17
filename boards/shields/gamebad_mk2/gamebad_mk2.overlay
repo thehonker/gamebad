@@ -9,20 +9,20 @@
     wakeup-source;
     // not a typo, more of a physical fuckup
     col-gpios
-      = <&shifter_0 7 GPIO_ACTIVE_HIGH>
-      , <&shifter_1 6 GPIO_ACTIVE_HIGH>
-      , <&shifter_1 5 GPIO_ACTIVE_HIGH>
-      , <&shifter_1 4 GPIO_ACTIVE_HIGH>
-      , <&shifter_1 3 GPIO_ACTIVE_HIGH>
+      = <&shifter_1 1 GPIO_ACTIVE_HIGH>
       , <&shifter_1 2 GPIO_ACTIVE_HIGH>
-      , <&shifter_1 1 GPIO_ACTIVE_HIGH>
+      , <&shifter_1 3 GPIO_ACTIVE_HIGH>
+      , <&shifter_1 4 GPIO_ACTIVE_HIGH>
+      , <&shifter_1 5 GPIO_ACTIVE_HIGH>
+      , <&shifter_1 6 GPIO_ACTIVE_HIGH>
       , <&shifter_0 7 GPIO_ACTIVE_HIGH>
-      , <&shifter_0 6 GPIO_ACTIVE_HIGH>
-      , <&shifter_0 5 GPIO_ACTIVE_HIGH>
-      , <&shifter_0 4 GPIO_ACTIVE_HIGH>
-      , <&shifter_0 3 GPIO_ACTIVE_HIGH>
+      , <&shifter_0 1 GPIO_ACTIVE_HIGH>
       , <&shifter_0 2 GPIO_ACTIVE_HIGH>
-      , <&shifter_1 1 GPIO_ACTIVE_HIGH>
+      , <&shifter_0 3 GPIO_ACTIVE_HIGH>
+      , <&shifter_0 4 GPIO_ACTIVE_HIGH>
+      , <&shifter_0 5 GPIO_ACTIVE_HIGH>
+      , <&shifter_0 6 GPIO_ACTIVE_HIGH>
+      , <&shifter_1 7 GPIO_ACTIVE_HIGH>
     ;
 
     row-gpios
@@ -56,7 +56,7 @@
 
 &xiao_spi {
   status = "okay";
-  cs-gpios = <&xiao_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, <&xiao_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+  cs-gpios = <&xiao_d 0 GPIO_ACTIVE_LOW>, <&xiao_d 1 GPIO_ACTIVE_LOW>;
   shifter_0: 595@0 {
     compatible = "zmk,gpio-595";
     status = "okay";
