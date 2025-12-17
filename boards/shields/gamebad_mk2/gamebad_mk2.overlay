@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include gamebad_mk2-layouts.dtsi
+#include "gamebad_mk2-layouts.dtsi"
 
 / {
   kscan0: kscan0 {
