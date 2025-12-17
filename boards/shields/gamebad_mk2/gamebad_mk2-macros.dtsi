@@ -8,5 +8,5 @@
     	#binding-cells = <0>;
     	bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
     };
-  }
+  };
 };
