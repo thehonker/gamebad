@@ -1,10 +1,12 @@
 #include <physical_layouts.dtsi>
 
 / {
-  unstick: unstick {
-  	label = "ZM_unstick";
-  	compatible = "zmk,behavior-macro";
-  	#binding-cells = <0>;
-  	bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
-  };
+  macros {
+    ZM_unstick: ZM_unstick {
+    	label = "ZM_unstick";
+    	compatible = "zmk,behavior-macro";
+    	#binding-cells = <0>;
+    	bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
+    };
+  }
 };
