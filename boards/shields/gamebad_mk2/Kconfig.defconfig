@@ -1,0 +1,9 @@
+if SHIELD_GAMEBAD_MK2
+
+config ZMK_KEYBOARD_NAME
+  default "gamebad_mk2"
+
+config SPI
+  default y
+
+endif
