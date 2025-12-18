@@ -2,6 +2,8 @@
 include:
 - board: xiao_ble
   shield: gamebad_mk2
+- board: xiao_ble
+  shield: gamebad_mk2
   snippet: zmk-usb-logging
 - board: xiao_ble
   shield: settings_reset

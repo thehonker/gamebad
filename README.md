@@ -1,6 +1,6 @@
-# gamebad-mk2
+# Gamebad Mk2
 
-The GAMEBAD, mk2
+The GAMEBAD, Mk2
 
 CAD for unibody case/plate:
 
