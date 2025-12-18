@@ -69,7 +69,7 @@
     status = "okay";
     gpio-controller;
     spi-max-frequency = <125000>;
-    reg = <1>;
+    reg = <0>;
     #gpio-cells = <2>;
     ngpios = <8>;
   };
