@@ -5,6 +5,5 @@ type: shield
 url: https://github.com/thehonker/gamebad-mk2
 requires:
 - seeed_xiao
-exposes: []
 features:
 - keys
