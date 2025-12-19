@@ -54,17 +54,8 @@
     transform = <&default_transform>;
   };
 
-  vbatt0: vbatt {
-    // Channel must be SAADC_CH_PSELN_PSELN_VDDHDIV5 - SAADC_CH_PSELP_PSELP_AnalogInput0
-    io-channels = <&adc (0x0D - 1)>;
-    // Multiply ADC result by 5
-    full-ohms = <5>;
-    output-ohms = <1>;
-  };
-
   chosen {
     zmk,physical-layout = &physical_layout0;
-    zmk,battery = &vbatt0;
   };
 };
 
