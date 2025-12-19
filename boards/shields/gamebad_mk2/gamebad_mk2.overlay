@@ -5,7 +5,7 @@
   kscan0: kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
     diode-direction = "col2row";
-    poll-period-ms = "1";
+    poll-period-ms = <1>;
 
     wakeup-source;
 
