@@ -4,11 +4,11 @@ include:
   shield: gamebad_mk2
   cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
-- board: nrf52840dongle_nrf52840
+- board: mdbt50q_rx
   shield: gamebad_mk2_dongle
 
 - board: xiao_ble
   shield: settings_reset
 
-- board: nrf52840dongle_nrf52840
+- board: mdbt50q_rx
   shield: settings_reset

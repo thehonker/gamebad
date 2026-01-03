@@ -1,12 +1,16 @@
 manifest:
-  defaults:
-    revision: v0.3
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: rschenk
+      url-base: https://github.com/rschenk
   projects:
     - name: zmk
       remote: zmkfirmware
+      revision: v0.4
       import: app/west.yml
+    - name: zmk-component-raytac-dongle
+      remote: rschenk
+      revision: v0.4
   self:
     path: config
