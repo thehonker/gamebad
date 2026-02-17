@@ -1,0 +1,2 @@
+config SHIELD_GAMEBAD_MK3
+  def_bool $(shields_list_contains,gamebad_mk3)

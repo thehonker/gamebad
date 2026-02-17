@@ -1,4 +1,18 @@
-# Gamebad Mk2
+# GAMEBAD
+
+Gamebad is a series of mechanical keyboards
+
+## GAMEBAD Mk3
+
+The GAMEBAD, Mk3
+
+![gamebad_mk3.jpeg](gamebad_mk3.jpeg)
+
+CAD for unibody case/plate:
+
+[onshape](https://cad.onshape.com/documents/f199cbb4f6d700b43f288260/w/90f88acebe7f41adf23d8121/e/6efdb81c572a15ac0c02dbf4?renderMode=0&uiState=6994004fc6ee8772b8c9bc6f)
+
+## Gamebad Mk2
 
 The GAMEBAD, Mk2
 
